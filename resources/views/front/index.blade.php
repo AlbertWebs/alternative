@@ -1,308 +1,6 @@
-<!doctype html>
-<html lang="zxx">
+@extends('front.master')
 
-<!-- Mirrored from templates.envytheme.com/seqty/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Oct 2022 15:06:06 GMT -->
-<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-		<!-- Links of CSS files -->
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/animate.min.css">
-		<link rel="stylesheet" href="assets/css/boxicons.min.css">
-		<link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-		<link rel="stylesheet" href="assets/css/flaticon.css">
-		<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-		<link rel="stylesheet" href="assets/css/nice-select.min.css">
-		<link rel="stylesheet" href="assets/css/odometer.min.css">
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/responsive.css">
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" href="assets/img/favicon.png">
-		<!-- Title -->
-		<title>Seqty - Cyber Security Services Company HTML Template</title>
-    </head>
-
-    <body>
-
-		<!-- Start Preloader Area -->
-		<div class="preloader">
-            <div class="loader">
-                <div class="loader-outter"></div>
-                <div class="loader-inner"></div>
-
-                <div class="indicator">
-                    <svg width="16px" height="12px">
-                        <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
-                        <polyline id="front" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
-                    </svg>
-                </div>
-            </div>
-        </div>
-		<!-- End Preloader Area -->
-
-		<!-- Start Header Area -->
-		<header class="header-area p-relative">
-
-			<!-- Start Navbar Area -->
-			<div class="navbar-area navbar-area-two">
-				<div class="mobile-nav">
-					<div class="container">
-						<a href="index.html" class="logo">
-							<img src="assets/img/black-logo.png" alt="Logo">
-						</a>
-					</div>
-				</div>
-
-				<div class="main-nav">
-					<div class="container">
-						<nav class="navbar navbar-expand-md">
-							<a class="navbar-brand" href="index.html">
-								<img src="assets/img/black-logo.png" alt="Logo">
-							</a>
-
-							<div class="collapse navbar-collapse mean-menu">
-								<ul class="navbar-nav m-auto">
-									<li class="nav-item">
-										<a href="#" class="nav-link active">
-											Home
-											<i class="bx bx-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="index.html" class="nav-link active">Home One</a>
-											</li>
-											<li class="nav-item">
-												<a href="index-2.html" class="nav-link">Home Two</a>
-											</li>
-											<li class="nav-item">
-												<a href="index-3.html" class="nav-link">Home Three</a>
-											</li>
-											<li class="nav-item">
-												<a href="index-4.html" class="nav-link">Home Four</a>
-											</li>
-											<li class="nav-item">
-												<a href="index-5.html" class="nav-link">Home Five</a>
-											</li>
-										</ul>
-									</li>
-
-									<li class="nav-item">
-										<a href="#" class="nav-link">
-											Pages
-											<i class="bx bx-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="about.html" class="nav-link">About Us</a>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													Services
-													<i class="bx bx-chevron-right"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a href="services-style-one.html" class="nav-link">Services Style One</a>
-													</li>
-													<li class="nav-item">
-														<a href="services-style-two.html" class="nav-link">Services Style Two</a>
-													</li>
-													<li class="nav-item">
-														<a href="services-style-three.html" class="nav-link">Services Style Three</a>
-													</li>
-													<li class="nav-item">
-														<a href="services-details.html" class="nav-link">Service Details</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="team.html" class="nav-link">Team</a>
-											</li>
-
-											<li class="nav-item">
-												<a href="testimonials.html" class="nav-link">Testimonials</a>
-											</li>
-
-											<li class="nav-item">
-												<a href="pricing.html" class="nav-link">Pricing</a>
-											</li>
-
-											<li class="nav-item">
-												<a href="#" class="nav-link">
-													User
-													<i class="bx bx-chevron-right"></i>
-												</a>
-
-												<ul class="dropdown-menu">
-													<li class="nav-item">
-														<a href="my-account.html" class="nav-link">My Account</a>
-													</li>
-													<li class="nav-item">
-														<a href="log-in.html" class="nav-link">Log In</a>
-													</li>
-													<li class="nav-item">
-														<a href="registration.html" class="nav-link">Registration</a>
-													</li>
-													<li class="nav-item">
-														<a href="recover-password.html" class="nav-link">Recover Password</a>
-													</li>
-												</ul>
-											</li>
-
-											<li class="nav-item">
-												<a href="faq.html" class="nav-link">FAQ</a>
-											</li>
-											<li class="nav-item">
-												<a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-											</li>
-											<li class="nav-item">
-												<a href="terms-conditions.html" class="nav-link">Terms & Conditions</a>
-											</li>
-											<li class="nav-item">
-												<a href="coming-soon.html" class="nav-link">Coming Soon</a>
-											</li>
-											<li class="nav-item">
-												<a href="404.html" class="nav-link">404 Error Page</a>
-											</li>
-										</ul>
-									</li>
-
-									<li class="nav-item">
-										<a href="#" class="nav-link">
-											Solutions
-											<i class="bx bx-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="solutions.html" class="nav-link">Solutions</a>
-											</li>
-											<li class="nav-item">
-												<a href="solution-details.html" class="nav-link">Solution Details</a>
-											</li>
-										</ul>
-									</li>
-
-									<li class="nav-item">
-										<a href="#" class="nav-link">
-											Shop
-											<i class="bx bx-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="products.html" class="nav-link">Products</a>
-											</li>
-											<li class="nav-item">
-												<a href="shopping-cart.html" class="nav-link">Shopping Cart</a>
-											</li>
-											<li class="nav-item">
-												<a href="checkout.html" class="nav-link">Checkout</a>
-											</li>
-											<li class="nav-item">
-												<a href="single-product.html" class="nav-link">Single Product</a>
-											</li>
-											<li class="nav-item">
-												<a href="wishlist.html" class="nav-link">Wishlist</a>
-											</li>
-										</ul>
-									</li>
-
-									<li class="nav-item">
-										<a href="#" class="nav-link">
-											Blog
-											<i class="bx bx-chevron-down"></i>
-										</a>
-
-										<ul class="dropdown-menu">
-											<li class="nav-item">
-												<a href="blog-column-one.html" class="nav-link">Blog Column One</a>
-											</li>
-											<li class="nav-item">
-												<a href="blog-column-two.html" class="nav-link">Blog Column Two</a>
-											</li>
-											<li class="nav-item">
-												<a href="blog-column-three.html" class="nav-link">Blog Column Three</a>
-											</li>
-											<li class="nav-item">
-												<a href="blog-left-sidebar.html" class="nav-link">Blog Left Sidebar</a>
-											</li>
-											<li class="nav-item">
-												<a href="blog-details.html" class="nav-link">Blog Details</a>
-											</li>
-										</ul>
-									</li>
-
-									<li class="nav-item">
-										<a href="contact.html" class="nav-link">Contact</a>
-									</li>
-								</ul>
-
-								<div class="others-option">
-									<div class="cart-icon">
-										<a href="shopping-cart.html">
-											<i class="bx bx-cart"></i>
-											<span>0</span>
-										</a>
-									</div>
-
-									<div class="get-quote">
-										<a href="#" class="default-btn">
-											<span>Get a Quote</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</nav>
-					</div>
-				</div>
-
-				<div class="others-option-for-responsive">
-					<div class="container">
-						<div class="dot-menu">
-							<div class="inner">
-								<div class="circle circle-one"></div>
-								<div class="circle circle-two"></div>
-								<div class="circle circle-three"></div>
-							</div>
-						</div>
-
-						<div class="container">
-							<div class="option-inner">
-								<div class="others-option justify-content-center d-flex align-items-center">
-									<div class="get-quote">
-										<a href="#" class="default-btn">
-											<span>Get a Quote</span>
-										</a>
-									</div>
-
-									<div class="cart-icon">
-										<a href="shopping-cart.html">
-											<i class="bx bx-cart"></i>
-											<span>0</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Navbar Area -->
-
-		</header>
-		<!-- End Header Area -->
-
+@section('content')
 		<!-- Start Banner Area -->
 		<section class="banner-area bg-1">
 			<div class="container">
@@ -310,11 +8,22 @@
 					<div class="col-lg-6 col-md-12">
 						<div class="banner-content">
 							<span class="top-title">World Class Cyber Security</span>
-							<h1>Powerful Protection Easy Recovery</h1>
-							<p>Cybersecurity is the protection  from the theft to protect of our computer systems and networks or being damaged of our hardware and software.</p>
+							<h1>Alternative Solutions Consultancy</h1>
+							<p>
+                                We are a Somalia-based consulting firm that provides specialized consultancy organizations and services corporate
+                                to
+                                entities
+                                government,non-government
+                                inof
+                                the
+                                areas
+                                monitoring,
+                                evaluations, research, capacity building, organization development and
+                                Environmental Consulting services.
+                            </p>
 							<div class="banner-btn">
-								<a href="contact.html" class="default-btn">
-									<span>Contact Us</span>
+								<a href="{{url('/')}}/our-solutions" class="default-btn">
+									<span>Our Solutions <i style="color:#ffffff" class="bx bx-briefcase-alt-2"></i></span>
 								</a>
 							</div>
 						</div>
@@ -322,7 +31,7 @@
 
 					<div class="col-lg-6 col-md-12">
 						<div class="banner-image">
-							<img src="assets/img/banner/banner-img-1.jpg" alt="image">
+							<img src="{{asset('theme/assets/img/banner/banner-img-1.jpg')}}" alt="image">
 						</div>
 					</div>
 				</div>
@@ -343,7 +52,7 @@
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 								<div class="feature-shape">
-									<img src="assets/img/feature-shape.png" alt="Image">
+									<img  src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
 							</div>
 						</div>
@@ -358,7 +67,7 @@
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 								<div class="feature-shape">
-									<img src="assets/img/feature-shape.png" alt="Image">
+									<img src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
 							</div>
 						</div>
@@ -373,7 +82,7 @@
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
 								<div class="feature-shape">
-									<img src="assets/img/feature-shape.png" alt="Image">
+									<img src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
 							</div>
 						</div>
@@ -389,7 +98,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="about-img">
-							<img src="assets/img/about-img.jpg" alt="Image">
+							<img class="radius-10" src="{{asset('theme/assets/img/about-img.jpg')}}" alt="Image">
 						</div>
 					</div>
 
@@ -561,7 +270,7 @@
 						<div class="single-services">
 							<div class="services-img">
 								<a href="services-details.html">
-									<img src="assets/img/services/services-1.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/services/services-1.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -582,7 +291,7 @@
 						<div class="single-services">
 							<div class="services-img">
 								<a href="services-details.html">
-									<img src="assets/img/services/services-2.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/services/services-2.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -601,7 +310,7 @@
 						<div class="single-services">
 							<div class="services-img">
 								<a href="services-details.html">
-									<img src="assets/img/services/services-3.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/services/services-3.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -620,7 +329,7 @@
 						<div class="single-services">
 							<div class="services-img">
 								<a href="services-details.html">
-									<img src="assets/img/services/services-4.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/services/services-4.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -698,7 +407,7 @@
 
 					<div class="col-lg-6 pr-0">
 						<div class="solution-img">
-							<img src="assets/img/solution-img.png" alt="Image">
+							<img src="{{asset('theme/assets/img/solution-img.png')}}" alt="Image">
 						</div>
 					</div>
 				</div>
@@ -814,7 +523,7 @@
 
 					<div class="col-lg-6">
 						<div class="protect-img">
-							<img src="assets/img/protect-img.jpg" alt="Image">
+							<img src="{{asset('theme/assets/img/protect-img.jpg')}}" alt="Image">
 						</div>
 					</div>
 				</div>
@@ -891,31 +600,31 @@
 				<div class="partner-slider owl-theme owl-carousel">
 					<div class="partner-item">
 						<a href="#">
-							<img src="assets/img/partner/partner-1.png" alt="Image">
+							<img src="{{asset('theme/assets/img/partner/partner-1.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="assets/img/partner/partner-2.png" alt="Image">
+							<img src="{{asset('theme/assets/img/partner/partner-2.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="assets/img/partner/partner-3.png" alt="Image">
+							<img src="{{asset('theme/assets/img/partner/partner-3.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="assets/img/partner/partner-4.png" alt="Image">
+							<img src="{{asset('theme/assets/img/partner/partner-4.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="assets/img/partner/partner-5.png" alt="Image">
+							<img src="{{asset('theme/assets/img/partner/partner-5.png')}}" alt="Image">
 						</a>
 					</div>
 				</div>
@@ -936,7 +645,7 @@
 						<div class="single-blog">
 							<div class="blog-img">
 								<a href="blog-details.html">
-									<img src="assets/img/blog/blog-4.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/blog/blog-4.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -951,7 +660,7 @@
 						<div class="single-blog">
 							<div class="blog-img">
 								<a href="blog-details.html">
-									<img src="assets/img/blog/blog-5.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/blog/blog-5.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -966,7 +675,7 @@
 						<div class="single-blog">
 							<div class="blog-img">
 								<a href="blog-details.html">
-									<img src="assets/img/blog/blog-6.jpg" alt="Image">
+									<img src="{{asset('theme/assets/img/blog/blog-6.jpg')}}" alt="Image">
 								</a>
 							</div>
 
@@ -988,7 +697,7 @@
 					<div class="row align-items-center">
 						<div class="col-lg-6 col-sm-6">
 							<div class="subscribe-content">
-								<img src="assets/img/subscribe-img.png" alt="Image">
+								<img src="{{asset('theme/assets/img/subscribe-img.png')}}" alt="Image">
 								<h3>Sing up for newsletter</h3>
 								<span>Subscribe to the newsletter for all the latest updates</span>
 							</div>
@@ -1010,180 +719,4 @@
 			</div>
 		</section>
 		<!-- End Subscribe Area -->
-
-		<!-- Start Footer Area -->
-		<footer class="footer-area pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6">
-						<div class="single-footer-widget">
-							<a href="index.html" class="logo">
-								<img src="assets/img/logo.png" alt="Image">
-							</a>
-
-							<p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consec tetur adipiscing.</p>
-
-							<ul class="social-icon">
-								<li>
-									<a href="#">
-										<i class="bx bxl-facebook"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-linkedin-square"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<i class="bx bxl-twitter"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6">
-						<div class="single-footer-widget">
-							<h3>Address</h3>
-
-							<ul class="address">
-								<li class="location">
-									<i class="bx bxs-location-plus"></i>
-									6890 Blvd, The Bronx, NY 1058 New York, USA
-								</li>
-								<li>
-									<i class="bx bxs-envelope"></i>
-									<a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#c9a1aca5a5a689baacb8bdb0e7aaa6a4"><span class="__cf_email__" data-cfemail="68000d040407281b0d191c11460b0705">[email&#160;protected]</span></a>
-									<a href="#">skype: example</a>
-								</li>
-								<li>
-									<i class="bx bxs-phone-call"></i>
-									<a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-									<a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6">
-						<div class="single-footer-widget">
-							<h3>Solution</h3>
-
-							<ul class="import-link">
-								<li>
-									<a href="#">Secure Private Cloud</a>
-								</li>
-								<li>
-									<a href="#">Online Backup</a>
-								</li>
-								<li>
-									<a href="#">Secure Websites</a>
-								</li>
-								<li>
-									<a href="#">Cyber-Security</a>
-								</li>
-								<li>
-									<a href="#">Enterprise Networks</a>
-								</li>
-								<li>
-									<a href="#">Collaboration</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-md-6">
-						<div class="single-footer-widget">
-							<h3>Resources</h3>
-
-							<ul class="import-link">
-								<li>
-									<a href="#">Cybersecurity Strategies</a>
-								</li>
-								<li>
-									<a href="#">Security Advisories</a>
-								</li>
-								<li>
-									<a href="#">Security News</a>
-								</li>
-								<li>
-									<a href="#">Blog</a>
-								</li>
-								<li>
-									<a href="#">Case Studies</a>
-								</li>
-								<li>
-									<a href="#">User Guides</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- End Footer Area -->
-
-		<!-- Start Copy Right Area -->
-		<div class="copy-right-area">
-			<div class="container">
-				<div class="row align-items-center">
-					<div class="col-lg-6 col-md-6">
-						<p>
-							Copyright <i class="bx bx-copyright"></i>2021 Seqty. Designed By
-							<a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
-						</p>
-					</div>
-
-					<div class="col-lg-6 col-md-6">
-						<ul class="footer-menu">
-							<li>
-								<a href="privacy-policy.html" target="_blank">
-									Privacy Policy
-								</a>
-							</li>
-							<li>
-								<a href="terms-conditions.html" target="_blank">
-									Terms & Conditions
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Copy Right Area -->
-
-		<!-- Start Go Top Area -->
-		<div class="go-top">
-			<i class="bx bx-chevrons-up"></i>
-			<i class="bx bx-chevrons-up"></i>
-		</div>
-		<!-- End Go Top Area -->
-
-
-		<!-- Links of JS files -->
-        <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-		<script src="assets/js/meanmenu.min.js"></script>
-		<script src="assets/js/owl.carousel.min.js"></script>
-		<script src="assets/js/nice-select.min.js"></script>
-		<script src="assets/js/magnific-popup.min.js"></script>
-		<script src="assets/js/jarallax.min.js"></script>
-        <script src="assets/js/appear.min.js"></script>
-		<script src="assets/js/odometer.min.js"></script>
-		<script src="assets/js/smoothscroll.min.js"></script>
-		<script src="assets/js/form-validator.min.js"></script>
-		<script src="assets/js/contact-form-script.js"></script>
-		<script src="assets/js/ajaxchimp.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-		<script src="assets/js/custom.js"></script>
-    </body>
-
-<!-- Mirrored from templates.envytheme.com/seqty/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Oct 2022 15:06:08 GMT -->
-</html>
+@endsection
