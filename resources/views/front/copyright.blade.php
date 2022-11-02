@@ -1,25 +1,27 @@
-@extends('front.master')
+@extends('front.master-pages')
 
 @section('content')
    <!-- Breadcrumbs Start -->
-   <div class="rs-breadcrumbs img1">
-    <div class="container">
-        <div class="breadcrumbs-inner">
-            <h1 class="page-title">
-                Copyrigh Statement
-                <span class="watermark">Copyright</span>
-            </h1>
-            <span class="sub-text">
-                Alizhora HR International is a dynamic consultancy dedicated to empower people towards excellence
 
-in their careers and personal life through Transformative Leadership and
-
-Management Training.
-            </span>
+<!-- Breadcrumbs End -->
+	<!-- Start Page Title Area -->
+    <div class="page-title-area page-title-style-two">
+        <div class="container">
+            <div class="page-title-content">
+                <h2>Copyrigh Statement</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="bx bx-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active">Copyrigh Statement</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
-<!-- Breadcrumbs End -->
+    <!-- End Page Title Area -->
 
  <!-- Faq Section Start -->
  <div id="rs-faq" class="rs-faq pt-100 pb-100 md-pt-70 md-pb-70">
@@ -41,8 +43,8 @@ Management Training.
                                         <div class="col-12 align-self-center">
                                             <h2 class="featured mt-0 ml-0">Copyright Statement</h2>
                                             <p></p>
-                                            <p>&nbsp;This website and its content is copyright of Alizhora International - ©
-                                                Alizhora International  2022. All rights reserved.
+                                            <p>&nbsp;This website and its content is copyright of Alternative Solutions Consulting- ©
+                                                Alternative Solutions Consulting 2022. All rights reserved.
 
                                                 Any redistribution or reproduction of part or all of the contents in
                                                 any form is partially prohibited other than the following:

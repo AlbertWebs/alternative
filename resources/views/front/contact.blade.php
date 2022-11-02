@@ -1,124 +1,147 @@
-@extends('front.master')
+@extends('front.master-pages')
 
 @section('content')
-<!-- Breadcrumbs Start -->
-<div class="rs-breadcrumbs img9">
-    <div class="container">
-        <div class="breadcrumbs-inner">
-            <h1 class="page-title">
-                Have questions - contact us
-                <span class="watermark">Contact</span>
-            </h1>
-            <span class="sub-text">Alizhora HR International is a dynamic consultancy dedicated to empower people towards excellence in their careers and personal life through Transformative Leadership and Management Training.</span>
-        </div>
-    </div>
-</div>
-<!-- Breadcrumbs End -->
 
-<!-- Contact Section Start -->
-<div class="rs-contact contact-style2 bg9 pt-100 pb-100 md-pt-70 md-pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 pr-40 md-pr-15 md-mb-50">
-                <div class="contact-map" style="border-radius:10px;">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.27029101627!2d36.8183125!3d-1.2833125!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab5c55ac7a084c8e!2sAlizhora%20HR%20International!5e0!3m2!1sen!2ske!4v1667040159618!5m2!1sen!2ske"></iframe>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="sec-title mb-45 md-mb-25">
-                    <h2 class="title pb-20">
-                        Let us help your business to move <span>forward.</span>
-                    </h2>
-                    <p class="margin-0">
-                        Alizhora HR International is a dynamic consultancy dedicated to empower people towards excellence in their careers and personal life through Transformative Leadership and Management Training.
-                    </p>
-                </div>
-                <div class="contact-wrap">
-                    <div id="form-messages"></div>
-                    <form id="contact-form" method="post" action="#">
-                        <fieldset>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="name" name="name"
-                                        placeholder="Name" required="">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="email" name="email"
-                                        placeholder="E-Mail" required="">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="phone" name="phone"
-                                        placeholder="Phone Number" required="">
-                                </div>
-                                <div class="col-lg-6 col-md-6 col-sm-6 mb-30">
-                                    <input class="from-control" type="text" id="Website" name="subject"
-                                        placeholder="Your Website" required="">
-                                </div>
-
-                                <div class="col-lg-12 mb-35">
-                                    <textarea class="from-control" id="message" name="message"
-                                        placeholder="Your message Here" required=""></textarea>
-                                </div>
-                            </div>
-                            <div class="btn-part">
-                                <div class="form-group mb-0">
-                                    <input style="border-radius:10px" class="readon submit" type="submit" value="Send Message">
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact Icon Section Start -->
-    <div class="rs-contact main-home">
+	<!-- Start Page Title Area -->
+    <div class="page-title-area page-title-style-two">
         <div class="container">
-            <div class="contact-icons-style box-address pt-100 md-pt-70">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6 md-mb-30">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <img src="{{asset('theme/assets/images/contact/icons/1.png')}}" alt="images">
-                            </div>
-                            <div class="content-text">
-                                <h2 class="title"><a href="#">Nairobi office</a></h2>
-                                <p class="services-txt">                                 Cianda House, Koinange Street
-                                    Suite 24, nairobi</p>
-                            </div>
-                        </div>
-                    </div>
+            <div class="page-title-content">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="bx bx-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Title Area -->
 
-                    <div class="col-lg-4 col-md-6 col-sm-6 xs-mb-30">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <img src="{{asset('theme/assets/images/contact/icons/3.png')}}" alt="images">
+    <!-- Start Contact Area -->
+    <section class="main-contact-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="contact-wrap">
+                        <div class="contact-form">
+                            <div class="contact-title">
+                                <h2>Write Us</h2>
                             </div>
-                            <div class="content-text">
-                                <h2 class="title"><a href="#">Email us</a></h2>
-                                <a href="#">info@alizhorahrinternational.co.ke</a><br>
-                                <a href="#">support@alizhorahrinternational.co.ke</a>
-                            </div>
+
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm-6">
+                                        <div class="form-group">
+                                            <label>Email Address</label>
+                                            <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label>Subject</label>
+                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label>Message</label>
+                                            <textarea name="message" class="form-control" id="message" cols="30" rows="10" required data-error="Write your message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12">
+                                        <button type="submit" class="default-btn btn-two">
+                                            <span>Send Message</span>
+                                        </button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="contact-item">
-                            <div class="contact-icon">
-                                <img src="{{asset('theme/assets/images/contact/icons/4.png')}}" alt="images">
-                            </div>
-                            <div class="content-text">
-                                <h2 class="title"><a href="#">Call us</a></h2>
-                                <a href="tel:+254 740 736 877">+254 740 736 877</a><br>
-                                <a href="tel:+254 716 351 111">+254 716 351 111</a>
-                            </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h3>Our contact details</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+
+                        <ul class="address">
+                            <li class="location">
+                                <i class="bx bxs-location-plus"></i>
+                                <span>Address</span>
+                                6890 Blvd, The Bronx, NY  1058 New York, USA
+                            </li>
+                            <li>
+                                <i class="bx bxs-phone-call"></i>
+                                <span>Phone</span>
+                                <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
+                                <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
+                            </li>
+                            <li>
+                                <i class="bx bxs-envelope"></i>
+                                <span>Email</span>
+                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#d8b0bdb4b4b798abbda9aca1f6bbb7b5"><span class="__cf_email__" data-cfemail="abc3cec7c7c4ebd8cedadfd285c8c4c6">[email&#160;protected]</span></a>
+                                <a href="#">skype: example</a>
+                            </li>
+                        </ul>
+
+                        <div class="sidebar-follow-us">
+                            <h3>Follow us:</h3>
+
+                            <ul class="social-wrap">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="bx bxl-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="bx bxl-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="bx bxl-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="bx bxl-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- End Contact Area -->
+
+    <!-- Start Map Area -->
+    <div class="map-area">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96573.31103674119!2d-73.91097366523668!3d40.85176866829554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28b553a697cb1%3A0x556e43a78ff15c77!2sThe%20Bronx%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1600202608808!5m2!1sen!2sbd"></iframe>
     </div>
-    <!-- Contact Icon Section End -->
-</div>
-<!-- Contact Section End -->
+    <!-- End Map Area -->
+
+
 @endsection

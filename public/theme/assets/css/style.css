@@ -6958,7 +6958,7 @@ Tabs Area Style*/
 /*# sourceMappingURL=style.css.map */
 
 .radius-10{
-    border-radius:10px;
+    border-radius:10px !important;
 }
 
 .logos{

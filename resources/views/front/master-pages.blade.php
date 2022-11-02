@@ -45,14 +45,57 @@
 		<!-- End Preloader Area -->
 
 		<!-- Start Header Area -->
-		<header class="header-area p-relative">
+		<!-- Start Header Area -->
+		<header class="header-area">
+
+			<!-- Start Top Header -->
+			<div class="top-header">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 col-sm-6">
+							<ul class="header-left-content">
+								<li>
+									<i class="bx bx-phone-call"></i>
+									<a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-6 col-sm-6">
+							<ul class="header-right-content">
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bxl-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bxl-instagram"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bxl-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank">
+										<i class="bx bxl-twitter"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Start Top Header -->
 
 			<!-- Start Navbar Area -->
-			<div class="navbar-area navbar-area-two">
+			<div class="navbar-area">
 				<div class="mobile-nav">
 					<div class="container">
 						<a href="{{url('/')}}" class="logo">
-							<img class="logos" src="{{asset('theme/assets/img/logo.jpg')}}" alt="Logo">
+							<img src="{{asset('theme/assets/img/Salcon-2.png')}}" alt="Logo">
 						</a>
 					</div>
 				</div>
@@ -61,7 +104,7 @@
 					<div class="container">
 						<nav class="navbar navbar-expand-md">
 							<a class="navbar-brand" href="{{url('/')}}">
-								<img class="logos" src="{{asset('theme/assets/img/logo.jpg')}}" alt="Logo">
+								<img class="logos" src="{{asset('theme/assets/img/Salcon-2.png')}}" alt="Logo">
 							</a>
 
 							<div class="collapse navbar-collapse mean-menu">
@@ -89,7 +132,7 @@
 										</a>
 
 										<ul class="dropdown-menu">
-											<?php
+                                            <?php
                                                $Services = DB::table('services')->get();
                                             ?>
                                             @foreach ($Services as $services)
@@ -143,10 +186,16 @@
 								<div class="others-option justify-content-center d-flex align-items-center">
 									<div class="get-quote">
 										<a href="#" class="default-btn">
-											<span>Schedule a Call</span>
+											<span>Get a Quote</span>
 										</a>
 									</div>
 
+									<div class="cart-icon">
+										<a href="shopping-cart.html">
+											<i class="bx bx-cart"></i>
+											<span>0</span>
+										</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -157,6 +206,7 @@
 
 		</header>
 		<!-- End Header Area -->
+		<!-- End Header Area -->
 
        @yield('content')
 
@@ -164,15 +214,13 @@
 		<footer class="footer-area pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="single-footer-widget">
 							<a href="{{url('/')}}" class="logo">
 								<img style="max-width:200px" src="{{asset('theme/assets/img/Salcon-2.png')}}" alt="Image">
 							</a>
 
-							<p>
-                                We are a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
-                            </p>
+							<p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consec tetur adipiscing.</p>
 
 							<ul class="social-icon">
 								<li>
@@ -199,7 +247,7 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="single-footer-widget">
 							<h3>Address</h3>
 
@@ -222,9 +270,9 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-md-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="single-footer-widget">
-							<h3>Solutions</h3>
+							<h3>Solution</h3>
 
 							<ul class="import-link">
 								<li>
@@ -249,7 +297,32 @@
 						</div>
 					</div>
 
+					<div class="col-lg-3 col-md-6">
+						<div class="single-footer-widget">
+							<h3>Resources</h3>
 
+							<ul class="import-link">
+								<li>
+									<a href="#">Cybersecurity Strategies</a>
+								</li>
+								<li>
+									<a href="#">Security Advisories</a>
+								</li>
+								<li>
+									<a href="#">Security News</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+								</li>
+								<li>
+									<a href="#">Case Studies</a>
+								</li>
+								<li>
+									<a href="#">User Guides</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</footer>
@@ -260,7 +333,7 @@
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-8 col-md-6">
-						<p>
+                        <p>
 							Copyright <i class="bx bx-copyright"></i>{{date('Y')}} <a href="{{url('/')}}/copyright-statement">Alternative Solutions Consulting</a> All Rights Reserved | Powered By
 							<a href="https://designekta.com/" target="_blank">Designekta Studios</a>
 						</p>
