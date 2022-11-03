@@ -12,8 +12,8 @@
     <meta property="og:locale:alternate" content="pt-pt">
     <meta property="og:locale:alternate" content="en-us">
     <meta property="og:site_name" content="Alizhora HR International">
-    <meta property="og:image" content="{{asset('theme/assets/images/Alizhora-logos-favicon.png')}}">
-    <meta property="og:image:url" content="{{asset('theme/assets/images/Alizhora-logos-favicon.png')}}">
+    <meta property="og:image" content="{{asset('theme/assets/img/Salcon-4.png')}}">
+    <meta property="og:image:url" content="{{asset('theme/assets/img/Salcon-4.png')}}">
     <meta property="og:image:size" content="300">
     <meta property="og:type" content="website" />
 

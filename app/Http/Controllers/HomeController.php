@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -45,6 +46,21 @@ class HomeController extends Controller
         Job Evaluations, Analysis, Grading and Benchmarking, Employee Selection & Placement , Training";
         return view('front.services',compact('title','url','page','keywords'));
     }
+
+    public function solution($slung)
+    {
+        $Services = DB::table('services')->where('slung', $slung)->get();
+        foreach ($Services as $key => $value) {
+            $title = "$value->title - Alternative Solutions Consulting";
+            $url = url('/the-company');
+            $page = "service";
+            $keywords = "Human Resource Solutions, Recruitment, Outsourcing, Selection and Placement,
+            Job Evaluations, Analysis, Grading and Benchmarking, Employee Selection & Placement , Training";
+            return view('front.service',compact('title','url','page','keywords','Services'));
+        }
+    }
+
+
 
     public function portfolio()
     {

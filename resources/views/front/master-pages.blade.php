@@ -23,7 +23,7 @@
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="{{asset('theme/assets/img/Salcon-4.png')}}">
 		<!-- Title -->
-		<title>Alternative Solutions Consultancy - Consultancy Firm in Somalia</title>
+		@include('seo')
     </head>
 
     <body>
@@ -126,7 +126,7 @@
 
 
 									<li class="nav-item">
-										<a href="{{url('/')}}/solutions" class="nav-link">
+										<a href="{{url('/')}}/#our-solutions" class="nav-link">
 											Solutions
 											<i class="bx bx-chevron-down"></i>
 										</a>
@@ -137,7 +137,7 @@
                                             ?>
                                             @foreach ($Services as $services)
                                             <li class="nav-item">
-												<a href="{{url('/')}}/solutions/{{$services->slung}}" class="nav-link">{{$services->title}}</a>
+												<a href="{{url('/')}}/our-solutions/{{$services->slung}}" class="nav-link">{{$services->title}}</a>
 											</li>
                                             @endforeach
 										</ul>
@@ -180,20 +180,12 @@
 								<div class="circle circle-three"></div>
 							</div>
 						</div>
-
 						<div class="container">
 							<div class="option-inner">
 								<div class="others-option justify-content-center d-flex align-items-center">
 									<div class="get-quote">
 										<a href="#" class="default-btn">
 											<span>Get a Quote</span>
-										</a>
-									</div>
-
-									<div class="cart-icon">
-										<a href="shopping-cart.html">
-											<i class="bx bx-cart"></i>
-											<span>0</span>
 										</a>
 									</div>
 								</div>

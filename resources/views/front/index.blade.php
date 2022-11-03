@@ -22,7 +22,7 @@
 
 					<div class="col-lg-6 col-md-12">
 						<div class="banner-image">
-							<img src="{{asset('theme/assets/img/banner/banner-img-1.jpg')}}" alt="image">
+							<img src="{{asset('theme/assets/img/banner/banner-img.png')}}" alt="image">
 						</div>
 					</div>
 				</div>
@@ -39,9 +39,11 @@
 							<div class="overly-two">
 								<div class="title">
 									<i class="flaticon-testing"></i>
-									<h3>Pen Testing</h3>
+									<h3>Third Party Monitoring </h3>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								<p>
+                                    We provide monitoring and verification services in remote and non-permissive environments to help government agencies, donor and development and aid organizations to make informed decision...
+                                </p>
 								<div class="feature-shape">
 									<img  src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
@@ -49,14 +51,16 @@
 						</div>
 					</div>
 
-					<div class="col-lg-4 col-sm-6">
+					<div class="col-lg-4 col-sm-6" style="min-height:360px">
 						<div class="single-feature overly-one">
-							<div class="overly-two">
+							<div class="overly-two" >
 								<div class="title">
 									<i class="flaticon-cybercrime"></i>
-									<h3>Cyber Threat Hunting</h3>
+									<h3>Policy Performance and Impact Evaluation </h3>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								<p>
+                                    Combining highest evaluation standards and unique sector specific understanding, we assess the effects of programmes and policies and turn evidence into action-based policy advice.
+                                </p>
 								<div class="feature-shape">
 									<img src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
@@ -65,13 +69,15 @@
 					</div>
 
 					<div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-						<div class="single-feature overly-one">
+						<div class="single-feature overly-one" style="min-height:270px">
 							<div class="overly-two">
 								<div class="title">
 									<i class="flaticon-cyber-security"></i>
-									<h3>Security Center</h3>
+									<h3>Cyber Security</h3>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+								<p>
+                                    Through vast experience and skilled professionals with robust digital literacy, we defend private sector, government agencies and non-state actor against cyber-attack.
+                                </p>
 								<div class="feature-shape">
 									<img src="{{asset('theme/assets/img/feature-shape.png')}}" alt="Image">
 								</div>
@@ -97,89 +103,62 @@
 						<div class="about-content">
 							<div class="about-title">
 								<span>About Us</span>
-								<h2>Without stopping for a moment we give you best technology experience discussing from our expertise to stop threats being theft or damaged.</h2>
+								<p>
+                                    Alternative Solutions is a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
+                                </p>
+                                <br>
+                                <p>
+                                    Alternative Solutions founded in 2011 as small startup firm grew over the years gaining momentum reputations in providing the aforementioned specialized services.
+                                </p>
 							</div>
 
 							<div class="tab">
 								<ul class="tabs">
 									<li>
-										Our Experience
+										Our vision:
 									</li>
 									<li>
-										Why Us?
+										Our Mission:
 									</li>
 									<li>
-										Our Approach
+										Our Core values:
 									</li>
 								</ul>
 
 								<div class="tab_content">
 									<div class="tabs_item">
-										<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat atque quibusdam fuga natus non necessitatibus eveniet maiores nostrum esse ut voluptates sint dolores, voluptatum consequatur ad est enim perferendis reprehenderit.</p>
+										<p>
+                                            To be your trusted companion for lasting solutions
+                                        </p>
 
-										<ul>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Trusted Partner
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Product Security
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												System Security
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Operational Security
-											</li>
-										</ul>
+
 									</div>
 
 									<div class="tabs_item">
-										<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat atque quibusdam fuga natus non necessitatibus eveniet maiores nostrum esse ut voluptates sint dolores, voluptatum consequatur ad est enim perferendis reprehenderit.</p>
+										<p>
+                                            providing and facilitating unparalleled consulting services through research, edge-cutting technologies, practical approaches and contextually tailored methodologies.
+                                        </p>
 
-										<ul>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Trusted Partner
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Product Security
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												System Security
-											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Operational Security
-											</li>
-										</ul>
+
 									</div>
 
 									<div class="tabs_item">
-										<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat atque quibusdam fuga natus non necessitatibus eveniet maiores nostrum esse ut voluptates sint dolores, voluptatum consequatur ad est enim perferendis reprehenderit.</p>
+										{{-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat atque quibusdam fuga natus non necessitatibus eveniet maiores nostrum esse ut voluptates sint dolores, voluptatum consequatur ad est enim perferendis reprehenderit.</p> --}}
 
 										<ul>
 											<li>
 												<i class="bx bx-check-circle"></i>
-												Trusted Partner
+												<strong>Professionalism:</strong> Deploying relevant, competent and highly experienced network of experts who are passionate to make a difference;
 											</li>
 											<li>
 												<i class="bx bx-check-circle"></i>
-												Product Security
+												<strong>Unique/unparalleled service:</strong> Providing contextualized and out-of-box multifaceted solutions;
 											</li>
 											<li>
 												<i class="bx bx-check-circle"></i>
-												System Security
+												<strong>Service durability:</strong>  Through meaningful involvement empowering lasting solutions
 											</li>
-											<li>
-												<i class="bx bx-check-circle"></i>
-												Operational Security
-											</li>
+
 										</ul>
 									</div>
 								</div>
