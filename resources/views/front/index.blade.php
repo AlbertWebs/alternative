@@ -362,31 +362,31 @@
 				<div class="partner-slider owl-theme owl-carousel">
 					<div class="partner-item">
 						<a href="#">
-							<img src="{{asset('theme/assets/img/partner/partner-1.png')}}" alt="Image">
+							<img src="{{asset('uploads/partner-1.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="{{asset('theme/assets/img/partner/partner-2.png')}}" alt="Image">
+							<img src="{{asset('uploads/partner-2.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="{{asset('theme/assets/img/partner/partner-3.png')}}" alt="Image">
+							<img src="{{asset('uploads/partner-3.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="{{asset('theme/assets/img/partner/partner-4.png')}}" alt="Image">
+							<img src="{{asset('uploads/partner-4.png')}}" alt="Image">
 						</a>
 					</div>
 
 					<div class="partner-item">
 						<a href="#">
-							<img src="{{asset('theme/assets/img/partner/partner-5.png')}}" alt="Image">
+							<img src="{{asset('uploads/partner-5.png')}}" alt="Image">
 						</a>
 					</div>
 				</div>
@@ -394,63 +394,7 @@
 		</div>
 		<!-- End Partner Area -->
 
-		<!-- Start Blog Area -->
-		<section class="blog-area pb-70">
-			<div class="container">
-				<div class="section-title">
-					<span>Latest News</span>
-					<h2>Read The Latest Articles From Us</h2>
-				</div>
 
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<div class="single-blog">
-							<div class="blog-img">
-								<a href="blog-details.html">
-									<img src="{{asset('theme/assets/img/blog/blog-4.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="blog-content">
-								<span>January 20, 2021</span>
-								<h3><a href="blog-details.html">The security risks of changing package owners</a></h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6">
-						<div class="single-blog">
-							<div class="blog-img">
-								<a href="blog-details.html">
-									<img src="{{asset('theme/assets/img/blog/blog-5.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="blog-content">
-								<span>January 19, 2021</span>
-								<h3><a href="blog-details.html">Tips to Protecting Your Business and Family</a></h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-						<div class="single-blog">
-							<div class="blog-img">
-								<a href="blog-details.html">
-									<img src="{{asset('theme/assets/img/blog/blog-6.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="blog-content">
-								<span>January 18, 2021</span>
-								<h3><a href="blog-details.html">Protect Your Workplace from Cyber Attacks</a></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Blog Area -->
 
 		<!-- Start Subscribe Area -->
 		<section class="subscribe-area pb-100">
