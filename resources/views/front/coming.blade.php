@@ -23,7 +23,7 @@
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/img/favicon.png">
 		<!-- Title -->
-		<title>{{$title}}</title>
+		@include('seo')
     </head>
 
     <body>

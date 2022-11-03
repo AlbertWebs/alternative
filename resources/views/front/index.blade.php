@@ -180,7 +180,7 @@
 
 				<div class="row">
 					<div class="col-lg-4 col-sm-6">
-						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
+						<div class="single-challenges overly-one" style="min-height:400px;">
 							<div class="overly-two">
 								<i class="flaticon-threat"></i>
 								<h3>Applied research and learning</h3>
@@ -193,7 +193,7 @@
 					</div>
 
 					<div class="col-lg-4 col-sm-6">
-						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
+						<div class="single-challenges overly-one" style="min-height:400px;">
 							<div class="overly-two">
 								<i class="flaticon-cyber"></i>
 								<h3>Organization Development and institutional capacity building</h3>
@@ -206,7 +206,7 @@
 					</div>
 
 					<div class="col-lg-4 col-sm-6">
-						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
+						<div class="single-challenges overly-one" style="min-height:400px;">
 							<div class="overly-two">
 								<i class="flaticon-cyber-security-1"></i>
 								<h3>Environment and Energy Consulting</h3>
@@ -232,7 +232,7 @@
 						<div class="protect-content">
 							<div class="protect-title">
 								<span>Cyber Security Protect</span>
-								<h2>Protect your website, web server, and web application for helping you being threats from the hacker</h2>
+								<h2>Protect your website, web server, and web application for helping you stay away from the hacker</h2>
 							</div>
 
 							<div class="row">
@@ -241,7 +241,7 @@
 										<div class="overly-two">
 											<i class="flaticon-database"></i>
 											<h3>Database Security</h3>
-											<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+											<p>The threat to data has never been greater. </p>
 											<span class="flaticon-database"></span>
 										</div>
 									</div>
@@ -251,8 +251,8 @@
 									<div class="single-challenges overly-one">
 										<div class="overly-two">
 											<i class="flaticon-application"></i>
-											<h3>Database Security</h3>
-											<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+											<h3>Application Security</h3>
+											<p>We Enable you Securely build, deploy and iterate applications.</p>
 											<span class="flaticon-application"></span>
 										</div>
 									</div>
@@ -263,7 +263,7 @@
 										<div class="overly-two">
 											<i class="flaticon-security"></i>
 											<h3>Web Security</h3>
-											<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+											<p>We ensure your website is up to date with neccessary security protocols</p>
 											<span class="flaticon-security"></span>
 										</div>
 									</div>
@@ -274,7 +274,7 @@
 										<div class="overly-two">
 											<i class="flaticon-security-1"></i>
 											<h3>Server Security</h3>
-											<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+											<p>We provide you with hardening and optimization in many different areas of server</p>
 											<span class="flaticon-security-1"></span>
 										</div>
 									</div>
@@ -285,7 +285,7 @@
 
 					<div class="col-lg-6">
 						<div class="protect-img">
-							<img src="{{asset('theme/assets/img/protect-img.jpg')}}" alt="Image">
+							<img style="border-radius:20px;" src="{{asset('theme/assets/img/protect-img.jpg')}}" alt="Image">
 						</div>
 					</div>
 				</div>
@@ -297,14 +297,16 @@
 		<section class="testimonials-area ptb-100 jarallax" data-jarallax='{"speed": 0.3}'>
 			<div class="container">
 				<div class="testimonials">
-					<span>What our customers say</span>
+					<span>Our Portfolio</span>
 
 					<div class="testimonials-slider owl-carousel owl-theme">
 						<div class="testimonials-item">
 							<i class="flaticon-quote"></i>
-							<p>“Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+							<p>
+                                End Evaluation IAPF Food security and Nutrition Project, Somalia
+                            </p>
 
-							<ul>
+							{{-- <ul>
 								<li>
 									<i class="bx bxs-star"></i>
 								</li>
@@ -320,16 +322,18 @@
 								<li>
 									<i class="bx bxs-star"></i>
 								</li>
-							</ul>
+							</ul> --}}
 
-							<h3>Jastin Anderson</h3>
-							<span>CEO</span>
+							<h3>Concern Worldwide</h3>
+							<span>April 30th -June 10th, 2022 </span>
 						</div>
 						<div class="testimonials-item">
-							<i class="flaticon-quote"></i>
-							<p>“Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.”</p>
+							<i class="flaticon-reliability"></i>
+							<p>
+                                Final Evaluation of Triple Nexus Pilot Project
+                            </p>
 
-							<ul>
+							{{-- <ul>
 								<li>
 									<i class="bx bxs-star"></i>
 								</li>
@@ -345,10 +349,10 @@
 								<li>
 									<i class="bx bxs-star"></i>
 								</li>
-							</ul>
+							</ul> --}}
 
-							<h3>Juhon Anderson</h3>
-							<span>Manager</span>
+							<h3>Nexus Platform</h3>
+							<span>February 20th -March15th, 2022</span>
 						</div>
 					</div>
 				</div>
