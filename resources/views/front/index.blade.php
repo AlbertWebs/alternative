@@ -174,51 +174,46 @@
 		<section class="challenges-area pt-100 pb-70 jarallax" data-jarallax='{"speed": 0.3}'>
 			<div class="container">
 				<div class="section-title white-title">
-					<span>Our Challenges</span>
-					<h2>You Can Protect Your Organization’s Cybersecurity By Us</h2>
+					<span>More Services</span>
+					{{-- <h2>You Can Protect Your Organization’s Cybersecurity By Us</h2> --}}
 				</div>
 
 				<div class="row">
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-challenges overly-one">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
 							<div class="overly-two">
 								<i class="flaticon-threat"></i>
-								<h3>Identifying Threats</h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								<h3>Applied research and learning</h3>
+								<p>
+                                    We conduct quick-turnaround studies to identify best practices and document learning to facilitate client understanding through ‘Pause and Reflect’’ sessions to inspire clients’ deep dive into data articulate ideas evidence-base decision, policies, strategies and further research
+                                </p>
 								<span class="flaticon-threat"></span>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-challenges overly-one">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
 							<div class="overly-two">
 								<i class="flaticon-cyber"></i>
-								<h3>Cyber Risk Assessment</h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								<h3>Organization Development and institutional capacity building</h3>
+								<p>
+                                    We offer organization development services through diagnosing the problem, providing clear and accurate feedback to design and assess solution for future practical recommendations while ensure best possible use of money, manage expectations to provide sustainable cost-effective services.
+                                </p>
 								<span class="flaticon-cyber"></span>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-challenges overly-one">
+					<div class="col-lg-4 col-sm-6">
+						<div class="single-challenges overly-one" style="min-height:400px; border-radius:10px;">
 							<div class="overly-two">
 								<i class="flaticon-cyber-security-1"></i>
-								<h3>Testing Cyber Security</h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
+								<h3>Environment and Energy Consulting</h3>
+								<p>
+                                    As a forefront Somali consulting firm in environmental impact assessment (EIA) and Strategic Environmental Assessment (SEA), we provide specific environment appraisals and comprehensive impact assessments service to industrial, residential development programmes through deep subject matter expertise to meet client needs.
+                                </p>
 								<span class="flaticon-cyber-security-1"></span>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-challenges overly-one">
-							<div class="overly-two">
-								<i class="flaticon-password"></i>
-								<h3>Managing Cloud Security</h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
-								<span class="flaticon-password"></span>
 							</div>
 						</div>
 					</div>
@@ -227,210 +222,7 @@
 		</section>
 		<!-- End Our Challenges Area -->
 
-		<!-- Start Services Area -->
-		<section class="services-area pt-100 pb-70">
-			<div class="container">
-				<div class="section-title">
-					<span>Cyber Security Services</span>
-					<h2>You Can Protect Your Organization’s Cybersecurity By Services Us</h2>
-				</div>
 
-				<div class="row">
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-services">
-							<div class="services-img">
-								<a href="services-details.html">
-									<img src="{{asset('theme/assets/img/services/services-1.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="services-content">
-								<h3><a href="services-details.html">Website Scanning</a></h3>
-								<div class="content">
-									<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
-									<a href="services-details.html" class="read-more">
-										Read More
-										<i class="flaticon-right-arrow"></i>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-services">
-							<div class="services-img">
-								<a href="services-details.html">
-									<img src="{{asset('theme/assets/img/services/services-2.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="services-content">
-								<h3><a href="services-details.html">Malware Removal</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
-								<a href="services-details.html" class="read-more">
-									Read More
-									<i class="flaticon-right-arrow"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-services">
-							<div class="services-img">
-								<a href="services-details.html">
-									<img src="{{asset('theme/assets/img/services/services-3.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="services-content">
-								<h3><a href="services-details.html">Cloud Security</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
-								<a href="services-details.html" class="read-more">
-									Read More
-									<i class="flaticon-right-arrow"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-3 col-sm-6">
-						<div class="single-services">
-							<div class="services-img">
-								<a href="services-details.html">
-									<img src="{{asset('theme/assets/img/services/services-4.jpg')}}" alt="Image">
-								</a>
-							</div>
-
-							<div class="services-content">
-								<h3><a href="services-details.html">Data Protection</a></h3>
-								<p>Lorem ipsum dolor sit amet, con sectetur adipiscing elit sed do.</p>
-								<a href="services-details.html" class="read-more">
-									Read More
-									<i class="flaticon-right-arrow"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Services Area -->
-
-		<!-- Start Solution Area -->
-		<section class="solution-area pb-70">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6">
-						<div class="solution-content">
-							<div class="solution-title">
-								<span>All-in Solution</span>
-								<h2>Our experts are providing and planning 24/7 technical support services with product and security consultation.</h2>
-							</div>
-
-							<div class="row">
-								<div class="col-lg-12 col-md-6">
-									<div class="single-solution overly-one">
-										<div class="overly-two">
-											<h3>
-												<a href="solution-details.html">
-													Product Consultation
-												</a>
-											</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-											<span>01</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-12 col-md-6">
-									<div class="single-solution overly-one">
-										<div class="overly-two">
-											<h3>
-												<a href="solution-details.html">
-													Security Consultation
-												</a>
-											</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-											<span>02</span>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-lg-12 col-md-6 offset-md-3 offset-lg-0">
-									<div class="single-solution overly-one">
-										<div class="overly-two">
-											<h3>
-												<a href="solution-details.html">
-													24/7 Technical Support
-												</a>
-											</h3>
-											<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
-											<span>03</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6 pr-0">
-						<div class="solution-img">
-							<img src="{{asset('theme/assets/img/solution-img.png')}}" alt="Image">
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Solution Area -->
-
-		<!-- Start Get In Touch Area -->
-		<section class="get-in-touch-area ptb-100 jarallax" data-jarallax='{"speed": 0.3}'>
-			<div class="container">
-				<div class="section-title white-title">
-					<span>Get In Touch</span>
-					<h2>Contact Us Today To Speak With An Expert About Your Specific Needs</h2>
-				</div>
-
-				<form class="get-in-touch-form">
-					<div class="row">
-						<div class="col-lg-6 col-sm-6">
-							<div class="form-group">
-								<label>Name</label>
-								<input type="text" class="form-control" id="First-Name">
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-sm-6">
-							<div class="form-group">
-								<label>Email</label>
-								<input type="email" class="form-control" id="Email">
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-sm-6">
-							<div class="form-group">
-								<label>Phone</label>
-								<input type="text" class="form-control" id="Number">
-							</div>
-						</div>
-
-						<div class="col-lg-6 col-sm-6">
-							<div class="form-group">
-								<label>Company</label>
-								<input type="text" class="form-control" id="Company">
-							</div>
-						</div>
-					</div>
-
-					<button type="submit" class="default-btn">
-						<span>Consultation</span>
-					</button>
-				</form>
-			</div>
-		</section>
-		<!-- Eed Get In Touch Area -->
 
 		<!-- Start Protect Area -->
 		<section class="protect-area pt-100 pb-70">
