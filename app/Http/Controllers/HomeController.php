@@ -60,8 +60,6 @@ class HomeController extends Controller
         }
     }
 
-
-
     public function portfolio()
     {
         $title = "Portfolio - Alternative Solutions Consulting";

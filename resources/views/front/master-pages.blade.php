@@ -56,7 +56,7 @@
 							<ul class="header-left-content">
 								<li>
 									<i class="bx bx-phone-call"></i>
-									<a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
+									<a href="tel:+1-(514)-312-5678">+254 (716) 21-2927</a>
 								</li>
 							</ul>
 						</div>
@@ -145,7 +145,7 @@
 
 
                                     <li class="nav-item">
-										<a href="{{url('/')}}/the-company" class="nav-link">
+										<a href="{{url('/')}}/portfolio" class="nav-link">
 											Portfolio
 										</a>
 									</li>

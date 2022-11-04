@@ -4662,7 +4662,7 @@ product-view-one
 Shopping Cart Area Style
 ======================================================*/
 .shopping-cart-area .cart-controller {
-  max-width: 810px;
+  /* max-width: 810px; */
   margin: auto;
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
@@ -4692,7 +4692,7 @@ Shopping Cart Area Style
   vertical-align: middle;
   border: none;
   border-bottom: 1px solid #dedede;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .shopping-cart-area .cart-table table tbody tr td:first-child {

@@ -102,7 +102,7 @@
 
 
                                     <li class="nav-item">
-										<a href="{{url('/')}}/the-company" class="nav-link">
+										<a href="{{url('/')}}/portfolio" class="nav-link">
 											Portfolio
 										</a>
 									</li>
