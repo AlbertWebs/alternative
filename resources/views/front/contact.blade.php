@@ -82,19 +82,19 @@
                 <div class="col-lg-4">
                     <div class="contact-info">
                         <h3>Our contact details</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                        {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p> --}}
 
                         <ul class="address">
                             <li class="location">
                                 <i class="bx bxs-location-plus"></i>
                                 <span>Address</span>
-                                6890 Blvd, The Bronx, NY  1058 New York, USA
+                                6890 Mogadishu, Mogadishu, Somalia
                             </li>
                             <li>
                                 <i class="bx bxs-phone-call"></i>
                                 <span>Phone</span>
-                                <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
-                                <a href="tel:+1-(514)-312-6677">+1 (514) 312-6677</a>
+                                <a href="tel:+254 (514) 312-5678">+254 (514) 312-5678</a>
+                                <a href="tel:+254 (514) 312-5678">+254 (514) 312-6677</a>
                             </li>
                             <li>
                                 <i class="bx bxs-envelope"></i>
@@ -139,7 +139,7 @@
 
     <!-- Start Map Area -->
     <div class="map-area">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96573.31103674119!2d-73.91097366523668!3d40.85176866829554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28b553a697cb1%3A0x556e43a78ff15c77!2sThe%20Bronx%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1600202608808!5m2!1sen!2sbd"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.277519149899!2d36.8222851!3d-1.2821533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1667545739812!5m2!1sen!2ske"></iframe>
     </div>
     <!-- End Map Area -->
 
