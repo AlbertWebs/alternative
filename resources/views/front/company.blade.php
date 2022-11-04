@@ -1,222 +1,157 @@
-@extends('front.master')
+@extends('front.master-pages')
 
 @section('content')
-   <!-- Breadcrumbs Start -->
-   <div class="rs-breadcrumbs img8">
-    <div class="container">
-        <div class="breadcrumbs-inner">
-            <h1 class="page-title">
-                Who We Are
-                <span class="watermark">About</span>
-            </h1>
-            <span class="sub-text">
-                Alizhora HR International is a dynamic consultancy dedicated to empower people towards excellence
 
-                in their careers and personal life through Transformative Leadership and
-
-                Management Training.
-            </span>
-        </div>
-    </div>
-</div>
-<!-- Breadcrumbs End -->
-
-<!-- About Section Start -->
-<div class="rs-about style2 pt-100 pb-100 md-pt-70 md-pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 pr-33 md-pr-15 md-mb-50">
-                <div class="images-part">
-                    <img src="{{asset('theme/assets/images/about/about-3.png')}}" alt="Images">
-                </div>
-            </div>
-            <div class="col-lg-6 ">
-                <div class="sec-title">
-                    <h2 class="title pb-22">
-                        All HR Solutions
-                    </h2>
-                    <span class="sub-text big">Alizhora HR International is a dynamic consultancy dedicated to empower people towards excellence
-
-                        in their careers and personal life through Transformative Leadership and
-
-                        Management Training.</span>
-
-                    <p class="margin-0 pt-15">
-                        Alizhora is a management consultancy centre with a highly qualified and experienced
-                        team of dedicated human resource experts and takes pride in being your one stop centre
-                        for human resource solutions.<br>
-                        We avail our time and resources to be up to speed with the latest and most transformative
-
-                        leadership and management solution. Our training elements are structured towards nurtu-
-                        ring your individual objectives and ensures high staff performance as per your desired
-
-                        need
-                    </p>
-                    <div class="btn-part mt-45 md-mt-30">
-                        <a class="readon consultant discover" href="{{url('/services')}}">What We Do</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="rs-animation">
-        <div class="animate-style">
-            <img class="scale" src="{{asset('theme/assets/images/about/tri-circle-1.png')}}" alt="About">
-        </div>
-    </div>
-</div>
-<!-- About Section End -->
-
-<!-- Services Section Start -->
-<div id="rs-services" class="rs-services chooseus-style about-style bg12 pt-100 pb-100 md-pt-70 md-pb-70">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-6 md-mb-30">
-                <div class="services-item">
-                    <div class="services-icon">
-                        <img src="{{asset('theme/assets/images/choose/icons/1.png')}}" alt="Images">
-                    </div>
-                    <div class="services-text">
-                        <h3 class="title"><a href="{{url('/')}}/services">Expert Personale</a></h3>
-                        <p class="services-txt">Our Expert personel makes us stand out</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 sm-mb-30">
-                <div class="services-item">
-                    <div class="services-icon">
-                        <img src="{{asset('theme/assets/images/choose/icons/2.png')}}" alt="Images">
-                    </div>
-                    <div class="services-text">
-                        <h3 class="title"><a href="{{url('/')}}/services">Sufficient Experience</a></h3>
-                        <p class="services-txt">We offer our services from knowledge and Experience</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="services-item">
-                    <div class="services-icon">
-                        <img src="{{asset('theme/assets/images/choose/icons/3.png')}}" alt="Images">
-                    </div>
-                    <div class="services-text">
-                        <h3 class="title"><a href="{{url('/')}}/services">Quality Assuarance</a></h3>
-                        <p class="services-txt">Quality Services Is 100% Guaranteed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Services Section End -->
-
-<!-- Why Choose Section Start -->
-<div class="rs-choose pt-100 pb-100 md-pt-70 md-pb-70">
-    <div class="container">
-        <div class="row y-middle">
-            <div class="col-lg-6 pr-70 md-pr-15 md-mb-50">
-                <div class="sec-title mb-35">
-                    <h2 class="title pb-30">
-                        Why choose us
-                    </h2>
-                    <p class="margin-0">
-                        1. Integrity – Build trust with clients and each other by actions and deliverables. We deliver
-                        what we promise to our people and our clients.
-                        <br>
-                        2. Quality - We ensure we deliver high standards of deliverables time and again.
-                        <br>
-                        3. Collaboration - We together work towards achieving long term growth for our clients, stake
-                        holders and benefit each other.
-                        <br>
-                        4. Respect - We create an environment where each person feels valued and treated with dignity
-                    </p>
-                </div>
-                <!-- Skillbar Section Start -->
-                <div class="rs-skillbar style1">
-                    <div class="cl-skill-bar">
-                       <!-- Start Skill Bar -->
-                       <span class="skillbar-title">Human Resource Solutions</span>
-                       <div class="skillbar" data-percent="100">
-                           <p class="skillbar-bar"></p>
-                           <span class="skill-bar-percent"></span>
-                       </div>
-                       <!-- Start Skill Bar -->
-                       <span class="skillbar-title">Employee Selection & Placement</span>
-                       <div class="skillbar" data-percent="100">
-                           <p class="skillbar-bar"></p>
-                           <span class="skill-bar-percent"></span>
-                       </div>
-                       <!-- Start Skill Bar -->
-                       <span class="skillbar-title">Training</span>
-                       <div class="skillbar" data-percent="100">
-                           <p class="skillbar-bar"></p>
-                           <span class="skill-bar-percent"></span>
-                       </div>
-
-                    </div>
-                </div>
-                <!-- Skillbar Section End -->
-            </div>
-            <div class="col-lg-6">
-                <div class="rs-videos choose-video">
-                    <div class="images-video">
-                        <img src="{{asset('theme/assets/images/choose/chosse-video.jpg')}}" alt="images">
-                    </div>
-                    <div class="animate-border">
-                        <a class="popup-border" href="https://www.youtube.com/watch?v=3tpVVY5OP3g">
-                            <i class="fa fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Counter Section End -->
-    <div class="rs-counter style1 pt-100 md-pt-70">
+	<!-- Start Page Title Area -->
+    <div class="page-title-area page-title-style-two">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 md-mb-30">
-                    <div class="counter-area">
-                        <div class="counter-list mb-20">
-                            <div class="counter-icon">
-                                <img src="{{asset('theme/assets/images/counter/icons/1.png')}}" alt="Counter">
-                            </div>
-                            <div class="counter-number">
-                                <h3 class="rs-counts">Mission</h3>
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h5 class="title">Dedication to our calling in organizational development programs including capacity buil-
-                                ding, team buildingand quality audits that bring modern leadership and performance to
-
-                                organizations.</h5>
-                        </div>
-                    </div>
+            <div class="page-title-content">
+                <h2>Alternative Solutions Consulting</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="bx bx-home"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="active">The Company</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Title Area -->
+<!-- Start About Us Area -->
+<section class="about-us-area pt-100 pb-70">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img">
+                    <img style="border-radius:10px" src="{{asset('theme/assets/img/about-img.jpg')}}" alt="Image">
                 </div>
+            </div>
 
+            <div class="col-lg-6">
+                <div class="about-content">
+                    <div class="about-title">
+                        <span>About Us</span>
+                        <p>
+                            Alternative Solutions is a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
+                        </p>
+                        <br>
+                        <p>
+                            Alternative Solutions founded in 2011 as small startup firm grew over the years gaining momentum reputations in providing the aforementioned specialized services.<br>
+                        </p>
+                        <p>
+                            We pair our pool of contextual and thematic expertise to provide contextually tailored and methodological rigorous services through edge-cutting technologies, theories and practical approaches to add value to the end-user’s aspirations to effect and achieve desired changes.
+                        </p>
 
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="counter-area">
-                        <div class="counter-list mb-20">
-                            <div class="counter-icon">
-                                <img src="{{asset('theme/assets/images/counter/icons/4.png')}}" alt="Counter">
-                            </div>
-                            <div class="counter-number">
-                                <h3 class="rs-counts">Vision</h3>
-
-                            </div>
-                        </div>
-                        <div class="content-part">
-                            <h5 class="title">To be the leading management and Human Resource Consultancy Center in the region,
-
-                                with a world class HR solutions and training modules that enable our clients confront com-
-                                plex business challenges.</h5>
-                        </div>
                     </div>
+
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- Counter Section End -->
-</div>
-<!-- Why Choose Section Start -->
+</section>
+<!-- End About Us Area -->
+
+		<!-- Start Mission & Vision Area -->
+		<section class="challenges-area challenges-area-two pt-100 pb-70">
+			<div class="container">
+                    {{-- <div class="section-title white-title">
+                        <span>Mission & Vision</span>
+                        <h2>You Can Protect Your Organization’s Cybersecurity By Us</h2>
+                    </div> --}}
+                <center>
+				<div class="row" style="margin:0 auto !important">
+                        <div class="col-lg-6 col-sm-6" >
+                            <div class="single-challenges overly-one" style="min-height:254px;">
+                                <div class="overly-two">
+                                    <i class="flaticon-threat"></i>
+                                    <h3>Our vision</h3>
+                                    <p>To be your trusted companion for lasting solutions </p>
+                                    <span class="flaticon-threat"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                            <div class="single-challenges overly-one">
+                                <div class="overly-two">
+                                    <i class="flaticon-cyber"></i>
+                                    <h3>Our Mission:</h3>
+                                    <p>
+                                        providing and facilitating unparalleled consulting services through research, edge-cutting technologies, practical approaches and contextually tailored methodologies.
+                                    </p>
+                                    <span class="flaticon-cyber"></span>
+                                </div>
+                            </div>
+                        </div>
+				</div>
+            </center>
+			</div>
+
+			<div class="challenges-shape">
+				<img src="{{asset('theme/assets/img/challenges-shape.png')}}" alt="Image">
+			</div>
+		</section>
+		<!-- End Mission & Vision Area -->
+
+		<!-- Start Protect Area -->
+		<section class="protect-area bg-color pt-100 pb-70">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="solution-content">
+							<div class="solution-title">
+								<span>Our Core Values</span>
+								{{-- <h2>Our experts are providing and planning 24/7 technical support services with product and security consultation.</h2> --}}
+							</div>
+
+							<div class="row">
+								<div class="col-lg-12 col-md-6">
+									<div class="single-solution overly-one">
+										<div class="overly-two">
+											<h3>Professionalism</h3>
+											<p>Deploying relevant, competent and highly experienced network of experts who are passionate to make a difference</p>
+											<span>01</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-6">
+									<div class="single-solution overly-one">
+										<div class="overly-two">
+											<h3>Unique/unparalleled service:</h3>
+											<p>Providing contextualized and out-of-box multifaceted solutions</p>
+											<span>02</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-12 col-md-6 offset-md-3 offset-lg-0">
+									<div class="single-solution overly-one">
+										<div class="overly-two">
+											<h3>Service durability:</h3>
+											<p>Through meaningful involvement empowering lasting solutions</p>
+											<span>03</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6">
+						<div class="protect-img">
+							<img style="border-radius:20px;" src="{{asset('theme/assets/img/protect-img.jpg')}}" alt="Image">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Eed Protect Area -->
+
+
+
 @endsection

@@ -8,7 +8,7 @@
 					<div class="col-lg-6 col-md-12">
 						<div class="banner-content">
 							<span class="top-title">World Class Professional Consulting</span>
-							<h1>Alternative Solutions Consultancy</h1>
+							<h1>Alternative Solutions Consulting</h1>
 							<p>
                                 We are a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
                             </p>
@@ -90,11 +90,12 @@
 		<!-- End Feature Area -->
 
 		<!-- Start About Us Area -->
-		<section class="about-us-area pb-70">
+		<section class="about-us-area bg-color pb-70">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
 						<div class="about-img">
+                            <br>
 							<img class="radius-10" src="{{asset('theme/assets/img/about-img.jpg')}}" alt="Image">
 						</div>
 					</div>
