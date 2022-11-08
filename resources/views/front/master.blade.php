@@ -83,7 +83,7 @@
 
 
 									<li class="nav-item">
-										<a href="{{url('/')}}/our-solutions" class="nav-link">
+										<a href="{{url('/')}}/#our-solutions" class="nav-link">
 											Solutions
 											<i class="bx bx-chevron-down"></i>
 										</a>
@@ -94,7 +94,7 @@
                                             ?>
                                             @foreach ($Services as $services)
                                             <li class="nav-item">
-												<a href="{{url('/')}}/#our-solutions/{{$services->slung}}" class="nav-link">{{$services->title}}</a>
+												<a href="{{url('/')}}/our-solutions/{{$services->slung}}" class="nav-link">{{$services->title}}</a>
 											</li>
                                             @endforeach
 										</ul>
