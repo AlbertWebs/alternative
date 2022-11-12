@@ -13,7 +13,7 @@
                                 We are a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
                             </p>
 							<div class="banner-btn">
-								<a href="{{url('/')}}/our-solutions" class="default-btn">
+								<a href="{{url('/')}}/our-solutions/third-party-monitoring" class="default-btn">
 									<span>Our Solutions <i style="color:#ffffff" class="bx bx-briefcase-alt-2"></i></span>
 								</a>
 							</div>
