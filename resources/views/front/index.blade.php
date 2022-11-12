@@ -402,7 +402,7 @@
 
 
 		<!-- Start Subscribe Area -->
-		<section class="subscribe-area pb-100">
+		{{-- <section class="subscribe-area pb-100">
 			<div class="container">
 				<div class="subscribe-bg">
 					<div class="row align-items-center">
@@ -428,6 +428,6 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> --}}
 		<!-- End Subscribe Area -->
 @endsection
