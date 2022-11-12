@@ -29,7 +29,7 @@
                     <div class="contact-wrap">
                         <div class="contact-form">
                             <div class="contact-title">
-                                <h2>Write Us</h2>
+                                <h2>Contact Us</h2>
                             </div>
 
                             <form id="contactForm">
@@ -88,18 +88,18 @@
                             <li class="location">
                                 <i class="bx bxs-location-plus"></i>
                                 <span>Address</span>
-                                6890 Mogadishu, Mogadishu, Somalia
+                                Behind Kheyre supermaket, Macruuf Junction, Dan-wadaagaha road Bula-Hubey, Wadajir district, Mogadishu
                             </li>
                             <li>
                                 <i class="bx bxs-phone-call"></i>
                                 <span>Phone</span>
-                                <a href="tel:+254 (514) 312-5678">+254 (514) 312-5678</a>
-                                <a href="tel:+254 (514) 312-5678">+254 (514) 312-6677</a>
+                                <a href="tel:+252-613771205">+252-613771205</a>
+                                <a href="tel:+252-613771205">+252-613771205</a>
                             </li>
                             <li>
                                 <i class="bx bxs-envelope"></i>
                                 <span>Email</span>
-                                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#d8b0bdb4b4b798abbda9aca1f6bbb7b5"><span class="__cf_email__" data-cfemail="abc3cec7c7c4ebd8cedadfd285c8c4c6">[email&#160;protected]</span></a>
+                                <a href="mailto:info@alternativesln.com"><span class="__cf_email__">info@alternativesln.com</span></a>
                                 <a href="#">skype: example</a>
                             </li>
                         </ul>

@@ -43,17 +43,17 @@
                     <ul class="address">
                         <li class="location">
                             <i class="bx bxs-location-plus"></i>
-                            6890 Mogadishu, Mogadishu, Somalia
+                            Behind Kheyre supermaket, Macruuf Junction, Dan-wadaagaha road Bula-Hubey, Wadajir district, Mogadishu
                         </li>
                         <li>
                             <i class="bx bxs-envelope"></i>
-                            <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#c9a1aca5a5a689baacb8bdb0e7aaa6a4"><span class="__cf_email__" data-cfemail="68000d040407281b0d191c11460b0705">[email&#160;protected]</span></a>
+                            <a href="mailto:info@alternativesln.com"><span class="__cf_email__">info@alternativesln.com</span></a>
                             <a href="#">skype: Alternativesln</a>
                         </li>
                         <li>
                             <i class="bx bxs-phone-call"></i>
-                            <a href="tel:+1-(514)-312-5678">+254 (716) 21-2927</a>
-                            <a href="tel:+1-(514)-312-6677">+254 (716) 21-2927</a>
+                            <a href="tel:+252-613771205">+252-613771205</a>
+                            <a href="tel:+252-613771205">+252-613771205</a>
                         </li>
                     </ul>
                 </div>
