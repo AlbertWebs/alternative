@@ -56,7 +56,7 @@
 							<ul class="header-left-content">
 								<li>
 									<i class="bx bx-phone-call"></i>
-									<a href="tel:+1-(514)-312-5678">+254 (716) 21-2927</a>
+									<a href="tel:+1-(514)-312-5678">+252-613771205</a>
 								</li>
 							</ul>
 						</div>
