@@ -130,7 +130,7 @@ class HomeController extends Controller
                 $message = $request->message;
                 $Joiner = "Hello Admin, User with name $name, and email $email and Subject $subject : Has Sent an Enquiry as -> $message";
                 ReplyMessage::sendMessage($name,$email,$Joiner);
-                return response()->json(['success' => true]);
+                return response()->json(['success']);
         }else{
             return response()->json(['success' => true]);
         }

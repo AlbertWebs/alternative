@@ -38,7 +38,7 @@ class ReplyMessage extends Model
         $appName = config('app.name');
         $appEmail = config('mail.username');
 
-        $FromVariable = "royaltechcomputersltd@gmail.com";
+        $FromVariable = "alternativesolutionsconsult@gmail.com";
         $FromVariableName = "RoyalTech Computers Limited";
 
         $toVariable = $email;
@@ -64,7 +64,7 @@ class ReplyMessage extends Model
 
         );
 
-        $FromVariable = "royaltechcomputersltd@gmail.com";
+        $FromVariable = "alternativesolutionsconsult@gmail.com";
         $FromVariableName = "RoyalTech Computers Limited Mailers";
 
         $toVariable = "info@royaltech.co.ke";
@@ -120,7 +120,7 @@ class ReplyMessage extends Model
         );
         $subject = "Laptop Hire";
 
-        $FromVariable = "royaltechcomputersltd@gmail.com";
+        $FromVariable = "alternativesolutionsconsult@gmail.com";
         $FromVariableName = "Royaltech Company Limited";
 
         $toVariable = "support@royaltech.co.ke";
@@ -139,12 +139,12 @@ class ReplyMessage extends Model
         );
         $subject = "New Message";
 
-        $FromVariable = "royaltechcomputersltd@gmail.com";
-        $FromVariableName = "Royaltech Company Limited";
+        $FromVariable = "alternativesolutionsconsult@gmail.com";
+        $FromVariableName = "Alternative Solutions Consultancy";
 
-        $toVariable = "support@royaltech.co.ke";
+        $toVariable = "info@alternativesln.com";
 
-        $toVariableName = "Royaltech Computers Limited";
+        $toVariableName = "Alternative Solutions Consultancy";
 
         Mail::send('mailContact', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email){
             $message->from($FromVariable , $FromVariableName);
