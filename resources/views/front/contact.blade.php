@@ -32,7 +32,8 @@
                                 <h2>Contact Us</h2>
                             </div>
 
-                            <form id="contactForms">
+                            <form id="contactForm">
+                                @csrf
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">

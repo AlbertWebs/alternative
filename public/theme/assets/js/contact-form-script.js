@@ -22,12 +22,14 @@
         var email = $("#email").val();
         var msg_subject = $("#msg_subject").val();
         var message = $("#message").val();
+        var _token = document.getElementsByName("_token")[0].value;
+
 
 
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
-            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+            url: "/form-process",
+            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message + "&_token=" + _token,
             success : function(text){
                 if (text == "success"){
                     formSuccess();
