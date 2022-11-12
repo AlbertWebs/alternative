@@ -84,7 +84,7 @@
 
 									<li class="nav-item">
 										<a href="{{url('/')}}/#our-solutions" class="nav-link">
-											Solutions
+											Services
 											<i class="bx bx-chevron-down"></i>
 										</a>
 
