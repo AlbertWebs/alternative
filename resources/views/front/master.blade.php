@@ -69,7 +69,7 @@
 									<li class="nav-item">
 										<a href="{{url('/')}}" class="nav-link active">
 											<i class="bx bx-home"></i>
-                                            Home
+                                            About Us
 										</a>
 
 

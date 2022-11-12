@@ -26,7 +26,7 @@
 		@include('seo')
     </head>
 
-    <body onmousedown="return false" onselectstart="return false">
+    <body>
 
 		<!-- Start Preloader Area -->
 		<div class="preloader">

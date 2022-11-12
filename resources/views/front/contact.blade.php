@@ -1,4 +1,4 @@
-@extends('front.master-pages')
+@extends('front.master-pages-contact')
 
 @section('content')
 
@@ -32,7 +32,7 @@
                                 <h2>Contact Us</h2>
                             </div>
 
-                            <form id="contactForm">
+                            <form id="contactForms">
                                 <div class="row">
                                     <div class="col-lg-6 col-sm-6">
                                         <div class="form-group">
@@ -53,7 +53,7 @@
                                     <div class="col-12">
                                         <div class="form-group">
                                             <label>Subject</label>
-                                            <input type="text" name="msg_subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                                            <input type="text" name="subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
@@ -66,6 +66,11 @@
                                         </div>
                                     </div>
 
+                                    <div class="col-lg-12 col-md-12" id="TheCapcha">
+                                        <div class="g-recaptcha" data-sitekey="6LdCDP8iAAAAACaTuby18ZLJk8j6PZZQ1jJlAf8a" data-callback="correctCaptcha"></div>
+                                        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+                                    </div>
+
                                     <div class="col-lg-12 col-md-12">
                                         <button type="submit" class="default-btn btn-two">
                                             <span>Send Message</span>
@@ -73,6 +78,8 @@
                                         <div id="msgSubmit" class="h3 text-center hidden"></div>
                                         <div class="clearfix"></div>
                                     </div>
+
+
                                 </div>
                             </form>
                         </div>
@@ -139,7 +146,8 @@
 
     <!-- Start Map Area -->
     <div class="map-area">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.277519149899!2d36.8222851!3d-1.2821533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1667545739812!5m2!1sen!2ske"></iframe>
+        {{-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.277519149899!2d36.8222851!3d-1.2821533!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb39310a139138d6!2sDesignekta%20Studios!5e0!3m2!1sen!2ske!4v1667545739812!5m2!1sen!2ske"></iframe> --}}
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63795.86928099002!2d45.3066649!3d2.0592008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6f10dfbd5a618c7!2sAlternative%20Solutions%20Consulting!5e0!3m2!1ssw!2ske!4v1668238304225!5m2!1ssw!2ske" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!-- End Map Area -->
 
