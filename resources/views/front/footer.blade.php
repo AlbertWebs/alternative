@@ -13,25 +13,21 @@
 
                     <ul class="social-icon">
                         <li>
-                            <a href="#">
+                            <a href="https://www.facebook.com/alternativesolutionsconsulancy">
                                 <i class="bx bxl-facebook"></i>
                             </a>
                         </li>
+
                         <li>
-                            <a href="#">
-                                <i class="bx bxl-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
+                            <a href="https://www.linkedin.com/company/alternative-solutions-consulting-ltd/">
                                 <i class="bx bxl-linkedin-square"></i>
                             </a>
                         </li>
-                        <li>
+                        {{-- <li>
                             <a href="#">
                                 <i class="bx bxl-twitter"></i>
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </div>
             </div>

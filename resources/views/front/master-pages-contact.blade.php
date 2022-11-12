@@ -64,25 +64,21 @@
 						<div class="col-lg-6 col-sm-6">
 							<ul class="header-right-content">
 								<li>
-									<a href="#" target="_blank">
+									<a href="https://www.facebook.com/alternativesolutionsconsulancy" target="_blank">
 										<i class="bx bxl-facebook"></i>
 									</a>
 								</li>
+
 								<li>
-									<a href="#" target="_blank">
-										<i class="bx bxl-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" target="_blank">
+									<a href="https://www.linkedin.com/company/alternative-solutions-consulting-ltd/" target="_blank">
 										<i class="bx bxl-linkedin"></i>
 									</a>
 								</li>
-								<li>
+								{{-- <li>
 									<a href="#" target="_blank">
 										<i class="bx bxl-twitter"></i>
 									</a>
-								</li>
+								</li> --}}
 							</ul>
 						</div>
 					</div>
