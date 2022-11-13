@@ -112,14 +112,14 @@
 									<li class="nav-item">
 										<a href="{{url('/')}}" class="nav-link active">
 											<i class="bx bx-home"></i>
-                                            About Us
+                                            Home
 										</a>
 
 
 									</li>
                                     <li class="nav-item">
 										<a href="{{url('/')}}/the-company" class="nav-link">
-											The Company
+											About Us
 										</a>
 									</li>
 
