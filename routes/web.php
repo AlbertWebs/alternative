@@ -21,6 +21,8 @@ Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio
 Route::get('/our-solutions', [App\Http\Controllers\HomeController::class, 'services'])->name('services-page');
 Route::get('/our-solutions/{slung}', [App\Http\Controllers\HomeController::class, 'solution'])->name('solution-page');
 Route::post('/form-process', [App\Http\Controllers\HomeController::class, 'form_process'])->name('form-process');
+Route::get('/schedule-a-call', [App\Http\Controllers\HomeController::class, 'schedule'])->name('schedule-a-call');
+
 
 
 Route::get('/copyright-statement', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright-page');

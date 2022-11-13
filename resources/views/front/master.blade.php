@@ -118,7 +118,7 @@
 
 
 									<div class="get-quote">
-										<a href="#" class="default-btn">
+										<a href="{{url('/')}}/schedule-a-call" class="default-btn">
 											<span>Schedule a Call</span>
 										</a>
 									</div>

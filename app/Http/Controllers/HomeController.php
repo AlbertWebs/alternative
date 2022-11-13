@@ -28,6 +28,18 @@ class HomeController extends Controller
         return view('front.contact',compact('title','url','page','keywords'));
     }
 
+    public function schedule()
+    {
+        $title = "Schedule a Call - Alternative Solutions Consulting";
+        $url = url('/the-company');
+        $page = "contact";
+        $keywords = "Human Resource Solutions, Recruitment, Outsourcing, Selection and Placement,
+        Job Evaluations, Analysis, Grading and Benchmarking, Employee Selection & Placement , Training";
+        return view('front.schedule',compact('title','url','page','keywords'));
+    }
+
+
+
     public function company()
     {
         $title = "The Company - Alternative Solutions Consulting";
