@@ -129,7 +129,7 @@
 
 										<ul class="dropdown-menu">
                                             <?php
-                                               $Services = DB::table('services')->get();
+                                               $Services = DB::table('services')->limit('5')->get();
                                             ?>
                                             @foreach ($Services as $services)
                                             <li class="nav-item">
