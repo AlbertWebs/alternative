@@ -23,6 +23,92 @@
 <!-- Start About Us Area -->
 
 <!-- Start Cart Area -->
+<!-- Start Solution Area -->
+<section class="solution-area pt-100 pb-70">
+    <div class="container-fluid">
+        <?php $Portfolio = DB::table('portfolios')->orderBy('id','DESC')->where('list','1')->get(); $counter = 1 ?>
+        @foreach($Portfolio as $folio)
+            @if($counter % 2 == 0)
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="solution-contents" style="padding:80px">
+                        <div class="solution-title">
+                            <span>Client: {{$folio->client}}</span>
+                            <p>{{$folio->period}}</p>
+                            <p><i class="bx bxs-location-plus"></i> {{$folio->assignment}}</p>
+                            <h2>{{$folio->title}}</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6">
+                                <div class="single-solution overly-one">
+                                    <div class="overly-two">
+
+                                        <p>{!!html_entity_decode($folio->content)!!}</p>
+                                        <span>0{{$counter}}</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 pr-0">
+                    <div class="solution-img" style="background-image: url('{{url('/')}}/uploads/{{$folio->image}}');
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 100%;
+                    padding-bottom: 30px;
+                    position: relative;">
+                        <img src="{{url('/')}}/uploads/{{$folio->image}}" alt="Image">
+                    </div>
+                </div>
+            </div>
+            @else
+            <div class="row">
+                <div class="col-lg-6 pr-0">
+                    <div class="solution-img" style="background-image: url('{{url('/')}}/uploads/{{$folio->image}}');
+                        background-position: center center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        height: 100%;
+                        padding-bottom: 30px;
+                        position: relative;">
+                        <img src="{{url('/')}}/uploads/{{$folio->image}}" alt="Image">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="solution-contents" style="padding:80px">
+                        <div class="solution-title">
+                            <span>Client: {{$folio->client}}</span>
+                            <p>{{$folio->period}}</p>
+                            <p><i class="bx bxs-location-plus"></i> {{$folio->assignment}}</p>
+                            <h2>{{$folio->title}}</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-6">
+                                <div class="single-solution overly-one">
+                                    <div class="overly-two">
+                                        <p>{!!html_entity_decode($folio->content)!!}</p>
+                                        <span>0{{$counter}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @endif
+        <?php $counter = $counter+1; ?>
+        @endforeach
+    </div>
+</section>
+<!-- End Solution Area -->
+
 <section class="shopping-cart-area ">
     <div class="container">
         <form class="cart-controller">
@@ -38,7 +124,7 @@
                     </thead>
 
                     <tbody>
-                        <?php $Portfolio = DB::table('portfolios')->get(); ?>
+                        <?php $Portfolio = DB::table('portfolios')->where('list','0')->get(); ?>
                         @foreach($Portfolio as $folio)
                         <tr>
                             <td style="border:2px solid #498128">
