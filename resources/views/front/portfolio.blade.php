@@ -61,7 +61,7 @@
                     background-repeat: no-repeat;
                     background-size: cover;
                     height: 100%;
-                    padding-bottom: 30px;
+
                     position: relative;">
                         <img src="{{url('/')}}/uploads/{{$folio->image}}" alt="Image">
                     </div>
@@ -75,7 +75,7 @@
                         background-repeat: no-repeat;
                         background-size: cover;
                         height: 100%;
-                        padding-bottom: 30px;
+
                         position: relative;">
                         <img src="{{url('/')}}/uploads/{{$folio->image}}" alt="Image">
                     </div>
@@ -109,7 +109,7 @@
 </section>
 <!-- End Solution Area -->
 
-<section class="shopping-cart-area ">
+{{-- <section class="shopping-cart-area ">
     <div class="container">
         <form class="cart-controller">
             <div class="cart-table table-responsive">
@@ -158,7 +158,7 @@
         </form>
 
     </div>
-</section>
+</section> --}}
 <!-- End Cart Area -->
 
 

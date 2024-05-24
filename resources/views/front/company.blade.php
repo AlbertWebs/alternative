@@ -26,7 +26,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="about-img">
-                    <img style="border-radius:10px" src="{{asset('theme/assets/img/about-img.jpg')}}" alt="Image">
+                    <img style="border-radius:10px" src="{{asset('uploads/about.jfif')}}" alt="Image">
                 </div>
             </div>
 
@@ -92,7 +92,7 @@
 			</div>
 
 			<div class="challenges-shape">
-				<img src="{{asset('theme/assets/img/challenges-shape.png')}}" alt="Image">
+				<img src="https://alternativesln.com/theme/assets/img/challenges-shape.png" alt="Image">
 			</div>
 		</section>
 		<!-- End Mission & Vision Area -->
@@ -103,10 +103,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="solution-content">
-							<div class="solution-title">
-								<span>Our Core Values</span>
-								{{-- <h2>Our experts are providing and planning 24/7 technical support services with product and security consultation.</h2> --}}
-							</div>
+
 
 							<div class="row">
 								<div class="col-lg-12 col-md-6">
@@ -144,7 +141,7 @@
 
 					<div class="col-lg-6">
 						<div class="protect-img">
-							<img style="border-radius:20px;" src="{{asset('theme/assets/img/protect-img.jpg')}}" alt="Image">
+							<img style="border-radius:20px;" src="{{asset('uploads/about-us.jfif')}}" alt="Image">
 						</div>
 					</div>
 				</div>
