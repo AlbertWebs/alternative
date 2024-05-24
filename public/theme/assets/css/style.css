@@ -1268,11 +1268,13 @@ Banner Area Style
 
 .banner-image {
   text-align: center;
+  border-radius:10px;
 }
 
 .banner-image img {
-  -webkit-animation: border-transform 10s linear infinite alternate forwards;
-          animation: border-transform 10s linear infinite alternate forwards;
+  /* -webkit-animation: border-transform 10s linear infinite alternate forwards;
+          animation: border-transform 10s linear infinite alternate forwards; */
+          border-radius:10px;
 }
 
 @-webkit-keyframes border-transform {
