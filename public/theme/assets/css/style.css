@@ -127,7 +127,7 @@ p:last-child {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
 }
 
@@ -2432,7 +2432,7 @@ Blog Area Style
 Footer Top Area Style
 ======================================================*/
 .footer-area {
-  background-image: url(../img/footer-bg.jpg);
+  /* background-image: url(../img/footer-bg.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

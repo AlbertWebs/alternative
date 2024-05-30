@@ -34,7 +34,7 @@
                     <div class="solution-contents" style="padding:80px">
                         <div class="solution-title">
                             <span>Client: {{$folio->client}}</span>
-                            <p>{{$folio->period}}</p>
+                            <p> <i class="bx bxs-calendar"></i> {{$folio->period}}</p>
                             <p><i class="bx bxs-location-plus"></i> {{$folio->assignment}}</p>
                             <h2>{{$folio->title}}</h2>
                         </div>
@@ -59,7 +59,7 @@
                     <div class="solution-img" style="background-image: url('{{url('/')}}/uploads/{{$folio->image}}');
                     background-position: center center;
                     background-repeat: no-repeat;
-                    background-size: cover;
+                    background-size: contain;
                     height: 100%;
 
                     position: relative;">
@@ -73,7 +73,7 @@
                     <div class="solution-img" style="background-image: url('{{url('/')}}/uploads/{{$folio->image}}');
                         background-position: center center;
                         background-repeat: no-repeat;
-                        background-size: cover;
+                        background-size: contain;
                         height: 100%;
 
                         position: relative;">
@@ -84,7 +84,7 @@
                     <div class="solution-contents" style="padding:80px">
                         <div class="solution-title">
                             <span>Client: {{$folio->client}}</span>
-                            <p>{{$folio->period}}</p>
+                            <p> <i class="bx bxs-calendar"></i> {{$folio->period}}</p>
                             <p><i class="bx bxs-location-plus"></i> {{$folio->assignment}}</p>
                             <h2>{{$folio->title}}</h2>
                         </div>

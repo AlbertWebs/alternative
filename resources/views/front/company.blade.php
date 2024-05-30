@@ -67,10 +67,10 @@
                         <div class="col-lg-6 col-sm-6" >
                             <div class="single-challenges overly-one" style="min-height:254px;">
                                 <div class="overly-two">
-                                    <i class="flaticon-threat"></i>
+                                    <i class="bx bxs-binoculars"></i>
                                     <h3>Our vision</h3>
                                     <p>To be your trusted companion for lasting solutions </p>
-                                    <span class="flaticon-threat"></span>
+                                    <span class="bx bxs-binoculars"></span>
                                 </div>
                             </div>
                         </div>
@@ -78,12 +78,12 @@
                         <div class="col-lg-6 col-sm-6">
                             <div class="single-challenges overly-one">
                                 <div class="overly-two">
-                                    <i class="flaticon-cyber"></i>
+                                    <i class="bx bxs-bullseye"></i>
                                     <h3>Our Mission:</h3>
                                     <p>
                                         providing and facilitating unparalleled consulting services through research, edge-cutting technologies, practical approaches and contextually tailored methodologies.
                                     </p>
-                                    <span class="flaticon-cyber"></span>
+                                    <span class="bx bxs-bullseye"></span>
                                 </div>
                             </div>
                         </div>
@@ -100,6 +100,10 @@
 		<!-- Start Protect Area -->
 		<section class="protect-area bg-color pt-100 pb-70">
 			<div class="container">
+                <div class="section-title white-title">
+                    {{-- <span>Core Values</span> --}}
+                    <h2 style="color:#000000">Core Values</h2>
+                </div>
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="solution-content">
