@@ -145,7 +145,7 @@
 
 					<div class="col-lg-6">
 						<div class="protect-img">
-							<img style="border-radius:20px;" src="{{asset('uploads/about-us.jfif')}}" alt="Image">
+							<img style="border-radius:20px;" src="{{asset('uploads/map.png')}}" alt="Image">
 						</div>
 					</div>
 				</div>

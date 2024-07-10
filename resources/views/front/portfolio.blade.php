@@ -26,7 +26,7 @@
 <!-- Start Solution Area -->
 <section class="solution-area pt-100 pb-70">
     <div class="container-fluid">
-        <?php $Portfolio = DB::table('portfolios')->orderBy('id','DESC')->where('list','1')->get(); $counter = 1 ?>
+        <?php $Portfolio = DB::table('portfolios')->orderBy('id','ASC')->where('list','1')->get(); $counter = 1 ?>
         @foreach($Portfolio as $folio)
             @if($counter % 2 == 0)
             <div class="row">

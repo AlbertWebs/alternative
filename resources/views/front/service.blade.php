@@ -30,10 +30,13 @@
             <div class="col-lg-8">
                 <div class="services-details-content">
                     <div class="services-content">
+                        @if($Service->image == null)
+                        @else
                         <div class="services-details-one">
                             <img style="border-radius:10px" src="{{url('/')}}/uploads/{{$Service->image}}" alt="{{$Service->title}}">
                         </div>
                         <br><br>
+                        @endif
                         <p style="color:#000000">{!!html_entity_decode($Service->content)!!}</p>
 
 

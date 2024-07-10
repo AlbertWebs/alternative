@@ -1919,6 +1919,7 @@ Solution Area Style
   height: 100%;
   padding-bottom: 30px;
   position: relative; */
+  max-width:80%;
 }
 
 .solution-img::before {

@@ -7,7 +7,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-12">
 						<div class="banner-content">
-							<span class="top-title">World Class Professional Consulting</span>
+							{{-- <span class="top-title">World Class Professional Consulting</span> --}}
 							<h1>Alternative Solutions Consulting</h1>
 							<p>
                                 We are a Somalia-based consulting firm that provides specialized consultancy services to government, non-government organizations and corporate entities in the areas of monitoring, evaluations, research, capacity building, organization development and Environmental Consulting services.
